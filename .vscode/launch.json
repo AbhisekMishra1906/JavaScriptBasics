@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "q2.js",
+            "program": "${workspaceFolder}/q2.js",
+            "runtimeExecutable": "/Users/abhisekmishra/.nvm/versions/node/v22.17.0/bin/node"
+        }
+    ]
+}
